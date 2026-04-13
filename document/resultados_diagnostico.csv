@@ -1,0 +1,31 @@
+ID,Frase,Número_Sintomas_Extraídos,Sintomas_Identificados,Diagnóstico_Sugerido,Confiança_Percentual,Diagnósticos_Alternativos
+1,"Sinto uma dor forte no peito há algumas horas, com sensação de aperto e suor excessivo, o que me deixou sem conseguir realizar minhas atividades.",5,febre; dor no peito; cansaço,Insuficiência Cardíaca,100.0,Pneumonia(90%); Infarto(88%)
+2,"Estou com dor no tórax em forma de pressão desde hoje cedo, junto com falta de ar e cansaço extremo ao mínimo esforço.",5,dor no tórax; febre alta; cansaço,Insuficiência Cardíaca,100.0,Pneumonia(67%); Infarto(59%)
+3,"Tenho uma dor intensa no peito que irradia para o braço esquerdo há algumas horas, além de náuseas e suor frio.",5,dor no peito; náuseas,Infarto,100.0,Enxaqueca(57%); Gastrite(57%)
+4,"Sinto um aperto no peito constante desde ontem, acompanhado de tontura e dificuldade para respirar.",4,aperto no peito; dificuldade para respirar,Pneumonia,100.0,Infarto(94%); Transtorno de Ansiedade(94%)
+5,"Estou com dor no peito em pontada há algumas horas, junto com sensação de desmaio e ansiedade intensa.",5,dor no peito; cansaço; ansiedade,Transtorno de Ansiedade,100.0,Insuficiência Cardíaca(67%); Infarto(59%)
+6,"Estou com tosse persistente há cinco dias, febre alta e dificuldade para respirar, o que tem piorado à noite.",3,febre; dificuldade para respirar,Pneumonia,100.0,Nenhum
+7,"Tenho febre, tosse com secreção e dor no peito ao respirar há alguns dias, dificultando meu sono.",5,dor no peito; febre,Pneumonia,100.0,Infarto(59%)
+8,"Sinto falta de ar e tosse constante há uma semana, além de cansaço ao realizar pequenas atividades.",3,febre alta; cansaço,Insuficiência Cardíaca,100.0,Pneumonia(67%)
+9,"Estou com febre alta, calafrios e tosse produtiva há quatro dias, me deixando debilitado.",2,febre,Pneumonia,100.0,Nenhum
+10,"Tenho dificuldade para respirar, tosse e dor no tórax ao inspirar profundamente há alguns dias.",5,dor no tórax; dificuldade para respirar,Pneumonia,100.0,Infarto(96%)
+11,"Sinto dor de cabeça intensa há três dias, com sensibilidade à luz e náuseas, o que tem afetado minha concentração.",1,náuseas,Infarto,100.0,Enxaqueca(100%); Gastrite(100%)
+12,"Estou com uma dor pulsante na cabeça desde ontem, acompanhada de enjoo e intolerância a barulho.",4,dor pulsante na cabeça; dor de cabeça,Enxaqueca,100.0,Nenhum
+13,"Tenho crises de dor de cabeça forte há alguns dias, com visão embaçada e sensibilidade à luz.",0,,Inconclusivo,0.0,Nenhum
+14,"Sinto dor na cabeça em um dos lados há dois dias, junto com náuseas e dificuldade de focar.",4,dor de cabeça; náuseas,Enxaqueca,100.0,Infarto(55%); Gastrite(55%)
+15,"Estou com dor de cabeça contínua e sensibilidade à luz há três dias, o que me impede de trabalhar.",0,,Inconclusivo,0.0,Nenhum
+16,"Sinto dor abdominal após comer há dois dias, junto com azia e náuseas, o que reduziu meu apetite.",1,náuseas,Infarto,100.0,Enxaqueca(100%); Gastrite(100%)
+17,"Estou com queimação no estômago e desconforto abdominal desde ontem, principalmente após refeições.",5,queimação; dor no estômago; desconforto abdominal; dor abdominal,Gastrite,100.0,Nenhum
+18,"Tenho dor na região do estômago e sensação de estufamento há alguns dias, dificultando minha alimentação.",4,queimação; cansaço,Insuficiência Cardíaca,100.0,Gastrite(80%)
+19,"Sinto náuseas frequentes e dor abdominal leve há três dias, especialmente após ingerir alimentos gordurosos.",1,náuseas,Infarto,100.0,Enxaqueca(100%); Gastrite(100%)
+20,"Estou com dor no estômago e sensação de queimação constante há dois dias, afetando minha rotina alimentar.",4,dor no estômago; cansaço,Gastrite,100.0,Insuficiência Cardíaca(96%)
+21,"Sinto cansaço extremo e falta de ar ao caminhar pequenas distâncias há uma semana, o que tem limitado minha rotina.",2,febre alta; cansaço,Insuficiência Cardíaca,100.0,Pneumonia(67%)
+22,"Estou com fadiga constante e inchaço nas pernas há alguns dias, mesmo sem fazer esforço físico.",3,inchaço nos pés; fadiga constante,Insuficiência Cardíaca,100.0,Nenhum
+23,"Tenho dificuldade para respirar ao deitar e cansaço frequente há uma semana, prejudicando meu sono.",2,cansaço; dificuldade para respirar,Insuficiência Cardíaca,100.0,Pneumonia(61%)
+24,"Sinto falta de ar e fraqueza ao realizar atividades simples há alguns dias, como subir escadas.",2,febre alta; fraqueza,Insuficiência Cardíaca,100.0,Pneumonia(67%)
+25,"Estou com cansaço persistente e inchaço nos pés há uma semana, dificultando minhas tarefas diárias.",3,inchaço nos pés; cansaço,Insuficiência Cardíaca,100.0,Nenhum
+26,"Sinto uma ansiedade intensa há três dias, com palpitações e falta de ar, o que tem me deixado muito preocupado.",3,febre alta; ansiedade; alimentação,Transtorno de Ansiedade,100.0,Gastrite(76%); Pneumonia(67%)
+27,"Estou com sensação constante de nervosismo e coração acelerado há alguns dias, dificultando minha concentração.",2,cansaço; tosse constante,Pneumonia,100.0,Insuficiência Cardíaca(89%)
+28,"Tenho crises de ansiedade com falta de ar e suor excessivo há uma semana, principalmente em momentos de estresse.",2,febre alta; ansiedade,Transtorno de Ansiedade,100.0,Pneumonia(67%)
+29,"Sinto inquietação e pensamentos acelerados há vários dias, acompanhados de dificuldade para dormir.",1,dificuldade para respirar,Pneumonia,100.0,Nenhum
+30,"Estou com sensação de aperto no peito e ansiedade constante há alguns dias, o que tem afetado minha rotina.",4,cansaço; aperto no peito; ansiedade,Transtorno de Ansiedade,100.0,Insuficiência Cardíaca(42%); Infarto(36%)
