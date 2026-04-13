@@ -1,0 +1,37 @@
+Sintoma 1,Sintoma 2,Doenca Associada
+dor no peito,aperto no peito,Infarto
+dor no tórax,pressão no tórax,Infarto
+dor no peito,suor excessivo,Infarto
+dor no peito,irradiação para braço,Infarto
+dor no peito,náuseas,Infarto
+aperto no peito,falta de ar,Infarto
+
+tosse persistente,febre alta,Pneumonia
+tosse com secreção,febre,Pneumonia
+falta de ar,tosse constante,Pneumonia
+febre alta,calafrios,Pneumonia
+dor no tórax ao respirar,dificuldade para respirar,Pneumonia
+
+dor de cabeça intensa,sensibilidade à luz,Enxaqueca
+dor de cabeça,náuseas,Enxaqueca
+dor pulsante na cabeça,intolerância a barulho,Enxaqueca
+visão embaçada,dor de cabeça,Enxaqueca
+dor de cabeça unilateral,náuseas,Enxaqueca
+
+dor abdominal,náuseas,Gastrite
+queimação no estômago,azia,Gastrite
+desconforto abdominal,estufamento,Gastrite
+dor no estômago,queimação,Gastrite
+náuseas,alimentação,Gastrite
+
+cansaço extremo,falta de ar,Insuficiência Cardíaca
+fadiga constante,inchaço nas pernas,Insuficiência Cardíaca
+falta de ar ao deitar,cansaço,Insuficiência Cardíaca
+fraqueza,falta de ar,Insuficiência Cardíaca
+inchaço nos pés,cansaço,Insuficiência Cardíaca
+
+palpitações,ansiedade,Transtorno de Ansiedade
+coração acelerado,nervosismo,Transtorno de Ansiedade
+falta de ar,ansiedade,Transtorno de Ansiedade
+inquietação,pensamentos acelerados,Transtorno de Ansiedade
+aperto no peito,ansiedade,Transtorno de Ansiedade
