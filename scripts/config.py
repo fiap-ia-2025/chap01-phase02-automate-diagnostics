@@ -12,6 +12,7 @@ PROJECT_ROOT = Path(__file__).parent.parent.resolve()
 
 # Diretório de documentos (dados e resultados)
 DOCUMENTS_DIR = PROJECT_ROOT / 'document'
+TRIAGEM_RISCO_CSV = DOCUMENTS_DIR / "triagem_risco.csv"
 
 # Diretório de código-fonte (notebooks)
 SRC_DIR = PROJECT_ROOT / 'src'
@@ -40,6 +41,9 @@ def validate_config():
     
     if not DOCUMENTS_DIR.exists():
         errors.append(f"❌ Diretório de documentos não encontrado: {DOCUMENTS_DIR}")
+
+    if not TRIAGEM_RISCO_CSV.exists():
+        errors.append(f"❌ Diretório de documentos não encontrado: {TRIAGEM_RISCO_CSV}")
     
     if not SRC_DIR.exists():
         errors.append(f"❌ Diretório src não encontrado: {SRC_DIR}")
@@ -66,7 +70,7 @@ if __name__ == '__main__':
     print("CONFIGURAÇÃO DO SISTEMA - PATHS RELATIVOS")
     print("="*70)
     print(f"📁 Raiz do projeto: {PROJECT_ROOT}")
-    print(f"📁 Documentos:      {DOCUMENTS_DIR}")
+    print(f"📁 Documentos:      {DOCUMENTS_DIR}, {TRIAGEM_RISCO_CSV}")
     print(f"📁 Código-fonte:    {SRC_DIR}")
     print(f"\n📥 Entrada (Dados):")
     print(f"   - {DIAGNOSTICS_CSV}")
