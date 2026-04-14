@@ -1,31 +1,31 @@
-﻿sintoma,classificacao
-Sinto uma dor forte no peito ha algumas horas, com sensacao de aperto e suor excessivo, o que me deixou sem conseguir realizar minhas atividades,alto risco
-Estou com dor no torax em forma de pressao desde hoje cedo, junto com falta de ar e cansaco extremo ao minimo esforco,alto risco
-Tenho uma dor intensa no peito que irradia para o braco esquerdo ha algumas horas, alem de nauseas e suor frio,alto risco
-Sinto um aperto no peito constante desde ontem, acompanhado de tontura e dificuldade para respirar,alto risco
-Estou com dor no peito em pontada ha algumas horas, junto com sensaco de desmaio e ansiedade intensa,alto risco
-Estou com tosse persistente ha cinco dias, febre alta e dificuldade para respirar, o que tem piorado a  noite,alto risco
-Tenho febre, tosse com secrecao e dor no peito ao respirar ha alguns dias, dificultando meu sono,baixo risco
-Sinto falta de ar e tosse constante ha uma semana, alem de cansaco ao realizar pequenas atividades,baixo risco
-Estou com febre alta, calafrios e tosse produtiva ha quatro dias, me deixando debilitado,baixo risco
-Tenho dificuldade para respirar, tosse e dor no torax ao inspirar profundamente ha alguns dias,alto risco
-Sinto dor de cabeca intensa ha tres dias, com sensibilidade a  luz e nauseas, o que tem afetado minha concentracao,baixo risco
-Estou com uma dor pulsante na cabeca desde ontem, acompanhada de enjoo e intolerancia a barulho,baixo risco
-Tenho crises de dor de cabeca forte ha alguns dias, com visaoo embaacada e sensibilidade a  luz,baixo risco
-Sinto dor na cabeca em um dos lados ha dois dias, junto com nauseas e dificuldade de focar,baixo risco
-Estou com dor de cabeca conti­nua e sensibilidade a  luz ha tres dias, o que me impede de trabalhar,baixo risco
-Sinto dor abdominal apos comer ha dois dias, junto com azia e nauseas, o que reduziu meu apetite,baixo risco
-Estou com queimacao no estomago e desconforto abdominal desde ontem, principalmente apos refeicoes,baixo risco
-Tenho dor na regiao do estamago e sensacao de estufamento ha alguns dias, dificultando minha alimentacao,baixo risco
-Sinto nauseas frequentes e dor abdominal leve ha tres dias, especialmente apos ingerir alimentos gordurosos,baixo risco
-Estou com dor no estomago e sensacao de queimacao constante ha dois dias, afetando minha rotina alimentar,baixo risco
-Sinto cansaco extremo e falta de ar ao caminhar pequenas distancias ha uma semana, o que tem limitado minha rotina,alto risco
-Estou com fadiga constante e inchaco nas pernas ha alguns dias, mesmo sem fazer esforco fi­sico,baixo risco
-Tenho dificuldade para respirar ao deitar e cansaco frequente ha uma semana, prejudicando meu sono,alto risco
-Sinto falta de ar e fraqueza ao realizar atividades simples ha alguns dias, como subir escadas,baixo risco
-Estou com cansaco persistente e inchaco nos pes ha uma semana, dificultando minhas tarefas diarias,baixo risco
-Sinto uma ansiedade intensa ha tres dias, com palpitacoes e falta de ar, o que tem me deixado muito preocupado,alto risco
-Estou com sensacao constante de nervosismo e coracao acelerado ha alguns dias, dificultando minha concentracao,baixo risco
-Tenho crises de ansiedade com falta de ar e suor excessivo ha uma semana, principalmente em momentos de estresse,baixo risco
-Sinto inquietacao e pensamentos acelerados ha varios dias, acompanhados de dificuldade para dormir,baixo risco
-Estou com sensacao de aperto no peito e ansiedade constante ha alguns dias, o que tem afetado minha rotina,alto risco
+sintoma,classificacao
+"De repente senti queimação forte no peito que passa pro braço esquerdo, com bastante suor frio, tontura e aquela sensação de que algo ruim vai acontecer.",baixo risco
+"Tenho um incômodo que vem e vai no meio do peito, piora quando respiro fundo, acompanhado de cansaço e ânsia de vômito.",baixo risco
+"Sinto uma dor aguda nas costas entre os ombros que desce pro peito, junto com falta de ar e medo de estar tendo infarto.",alto risco
+"Estou com formigamento na mão esquerda, o braço meio dormente e um incômodo na boca do estômago que parece indigestão, mas com muito suor.",baixo risco
+"Tenho um aperto forte no peito que irradia pra mandíbula e pescoco, piora quando me mexo ou faço esforço e deixa a gente bem fraco.",alto risco
+"Tô ficando sem ar cada vez mais, a respiração tá acelerada, tenho febre e dói bastante o peito quando respiro fundo, pior do lado esquerdo.",alto risco
+"Comecei com frio na espinha e febre muito alta, depois veio aquela dor no lado ao respirar e fico sem ar até pra fazer coisa simples, muito cansado e meio confuso.",baixo risco
+"Estou cuspindo sangue há dias, junto com muito suor à noite, fraco e sem ar mesmo pra caminhar um pouco.",alto risco
+"Tem uma dor aguda no peito quando tusso ou respiro fundo, febre que vai e volta, respiração rápida e me sinto muito mal.",alto risco
+"Tenho respiração pesada desde ontem, tusso um pouco e sai catarro meio cinzento e pegajoso, febre baixa mas que não passa e cansaço demais.",alto risco
+A dor começou com uns lampejos na vista e agora é aquele baque forte só de um lado da cabeça com ânsia de vômito cada vez pior.,baixo risco
+"Tenho uma dor que puxa desde a nuca até na frente dos olhos, luz brilhante dói demais os olhos.",baixo risco
+"Sinto uma dor muito forte só de um lado que pulsa, a vista fica embaçada, o braço fica fraco e os lábios formigam.",baixo risco
+"Tenho aquela dor de cabeça do demônio que começou com stress, vejo aqueles zigue-zagues estranhos antes da dor e vômito bastante.",baixo risco
+"Tem uma dor de cabeça que piora quando me mexo, som alto dói demais, vejo uns pontinhos brilhando e fico com tontura forte.",baixo risco
+"Tenho aquele refluxo chato principalmente à noite, bate um queimação que sobe da garganta até a boca, piora quando me deito.",baixo risco
+"Fico com dor na boca do estômago quando como coisa com tempero ou gordurosa, o abdômen fica inchado e solto bastante arroto.",baixo risco
+"Sinto um incômodo estranho no estômago, fico cheio demais mesmo comendo pouco, e esse queimação não passa por horas.",baixo risco
+"Tenho umas enjôos e vômito de vez em quando com sangue, desconforto no peito e dificuldade pra engolir comida sólida.",alto risco
+"Tem uma dor na região de cima do abdômen que irradia pro lado das costas, perdi a vontade de comer, tô fraco e minhas fezes ficam muito escuras.",baixo risco
+Tô extremamente cansado e fico sem ar só de caminhar de um cômodo pro outro da minha casa.,alto risco
+"Tenho os pés e tornozelos muito inchados, piora à noite, fico sem ar quando deito (preciso dormir de várias almofadas).",baixo risco
+"Sinto um cansaço profundo e falta de ar até com os esforços mais pequenos, o coração bate acelerado mesmo descansando e o abdômen fica inchado.",baixo risco
+"Estou muito fraco, respiro com dificuldade demais mesmo repousando, e meu abdômen fica super inchado e mole.",baixo risco
+"Acordo à noite com falta de ar, as pernas incham todas, emagreço mas ganho peso rápido e fico tão cansado que não dá pra fazer nada.",baixo risco
+"De repente começou o coração a bater muito rápido e fiquei sem ar, jurava que era infarto, tremia as mãos e tive muito pânico.",baixo risco
+"Tenho umas crises onde o coração dispara, suor nas mãos, formigamento nos dedos e fico com medo que algo ruim vai acontecer.",baixo risco
+"Estou com pensamentos acelerados que não consigo frear, sinto que não tô na realidade, medo de enlouquecer e durmo muito mal há dias.",baixo risco
+"Sinto os músculos muito tensos principalmente no pescoço e ombros, fico preocupado com minha saúde o tempo todo sem motivo.",baixo risco
+"Tenho falta de ar de nervoso, dificuldade pra engolir, dor de cabeça por tensão e fico com aquela sensação de perigo chegando.",baixo risco

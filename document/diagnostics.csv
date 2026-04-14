@@ -1,37 +1,43 @@
 Sintoma 1,Sintoma 2,Doenca Associada
-dor no peito,aperto no peito,Infarto
-dor no tórax,pressão no tórax,Infarto
-dor no peito,suor excessivo,Infarto
-dor no peito,irradiação para braço,Infarto
-dor no peito,náuseas,Infarto
-aperto no peito,falta de ar,Infarto
+queimação no peito,adormecimento no braço,Infarto
+incômodo no peito,respiração funda,Infarto
+dor nas costas,desce pro peito,Infarto
+formigamento na mão,suor excessivo,Infarto
+aperto no peito,dor na mandíbula,Infarto
+irradiação pro braço,suor frio,Infarto
 
-tosse persistente,febre alta,Pneumonia
-tosse com secreção,febre,Pneumonia
-falta de ar,tosse constante,Pneumonia
-febre alta,calafrios,Pneumonia
-dor no tórax ao respirar,dificuldade para respirar,Pneumonia
+sem ar,respiração acelerada,Pneumonia
+febre,dói o peito,Pneumonia
+frio na espinha,febre alta,Pneumonia
+cuspindo sangue,suor à noite,Pneumonia
+dor ao respirar,sem ar,Pneumonia
+respiração pesada,catarro cinzento,Pneumonia
 
-dor de cabeça intensa,sensibilidade à luz,Enxaqueca
-dor de cabeça,náuseas,Enxaqueca
-dor pulsante na cabeça,intolerância a barulho,Enxaqueca
-visão embaçada,dor de cabeça,Enxaqueca
-dor de cabeça unilateral,náuseas,Enxaqueca
+lampejos na vista,dor de cabeça,Enxaqueca
+dor unilateral,ânsia de vômito,Enxaqueca
+dor que puxa nuca,sensibilidade à luz,Enxaqueca
+zigue-zagues,vômito bastante,Enxaqueca
+dor de cabeça,piorando ao se mexer,Enxaqueca
+formigamento,visão embaçada,Enxaqueca
 
-dor abdominal,náuseas,Gastrite
-queimação no estômago,azia,Gastrite
-desconforto abdominal,estufamento,Gastrite
-dor no estômago,queimação,Gastrite
-náuseas,alimentação,Gastrite
+refluxo,queimação na garganta,Gastrite
+dor na boca do estômago,sensibilidade a gordura,Gastrite
+plenitude,queimação,Gastrite
+vômito com sangue,dificuldade de engolir,Gastrite
+dor abdominal,fezes escuras,Gastrite
+arroto frequente,inchaço abdominal,Gastrite
 
-cansaço extremo,falta de ar,Insuficiência Cardíaca
-fadiga constante,inchaço nas pernas,Insuficiência Cardíaca
-falta de ar ao deitar,cansaço,Insuficiência Cardíaca
-fraqueza,falta de ar,Insuficiência Cardíaca
-inchaço nos pés,cansaço,Insuficiência Cardíaca
+extremamente cansado,sem ar,Insuficiência Cardíaca
+pés inchados,tornozelos inchados,Insuficiência Cardíaca
+falta de ar ao deitar,coração acelerado,Insuficiência Cardíaca
+muito fraco,abdômen inchado,Insuficiência Cardíaca
+acorda à noite,pernas incham,Insuficiência Cardíaca
+ganho de peso,cansaço incapacitante,Insuficiência Cardíaca
 
-palpitações,ansiedade,Transtorno de Ansiedade
-coração acelerado,nervosismo,Transtorno de Ansiedade
-falta de ar,ansiedade,Transtorno de Ansiedade
-inquietação,pensamentos acelerados,Transtorno de Ansiedade
-aperto no peito,ansiedade,Transtorno de Ansiedade
+coração bate rápido,tremor nas mãos,Transtorno de Ansiedade
+pânico,sem ar,Transtorno de Ansiedade
+suor nas mãos,formigamento nos dedos,Transtorno de Ansiedade
+pensamentos acelerados,irrealidade,Transtorno de Ansiedade
+insônia,medo,Transtorno de Ansiedade
+tensão muscular,preocupação constante,Transtorno de Ansiedade
+cefaleia tensional,dificuldade de engolir,Transtorno de Ansiedade

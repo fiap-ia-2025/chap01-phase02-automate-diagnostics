@@ -3,20 +3,45 @@
    xmlns:diag="http://example.com/diagnosis/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/dor_de_cabeça_intensa">
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/cansaço_incapacitante">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>dor de cabeça intensa</diag:descricao>
-    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Enxaqueca"/>
+    <diag:descricao>cansaço incapacitante</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Insuficiência_Cardíaca"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/dor_no_peito">
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/dói_o_peito">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>dor no peito</diag:descricao>
+    <diag:descricao>dói o peito</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Pneumonia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/tornozelos_inchados">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>tornozelos inchados</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Insuficiência_Cardíaca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/tremor_nas_mãos">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>tremor nas mãos</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Transtorno_de_Ansiedade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/dor_nas_costas">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>dor nas costas</diag:descricao>
     <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Infarto"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/tosse_persistente">
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/incômodo_no_peito">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>tosse persistente</diag:descricao>
+    <diag:descricao>incômodo no peito</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Infarto"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/cuspindo_sangue">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>cuspindo sangue</diag:descricao>
     <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Pneumonia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/formigamento">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>formigamento</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Enxaqueca"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.com/diagnosis/ontology/dor_abdominal">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
@@ -27,35 +52,43 @@
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Diagnostico"/>
     <diag:descricao>Insuficiência Cardíaca</diag:descricao>
   </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/respiração_pesada">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>respiração pesada</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Pneumonia"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://example.com/diagnosis/ontology/febre_alta">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
     <diag:descricao>febre alta</diag:descricao>
     <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Pneumonia"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/fraqueza">
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/vômito_bastante">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>fraqueza</diag:descricao>
-    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Insuficiência_Cardíaca"/>
+    <diag:descricao>vômito bastante</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Enxaqueca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/coração_bate_rápido">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>coração bate rápido</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Transtorno_de_Ansiedade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/lampejos_na_vista">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>lampejos na vista</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Enxaqueca"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.com/diagnosis/ontology/dor_de_cabeça">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
     <diag:descricao>dor de cabeça</diag:descricao>
     <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Enxaqueca"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/náuseas">
-    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>náuseas</diag:descricao>
-    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Infarto"/>
-    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Enxaqueca"/>
-    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Gastrite"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://example.com/diagnosis/ontology/descricao">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/azia">
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/dor_unilateral">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>azia</diag:descricao>
-    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Gastrite"/>
+    <diag:descricao>dor unilateral</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Enxaqueca"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.com/diagnosis/ontology/Gastrite">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Diagnostico"/>
@@ -65,6 +98,11 @@
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
     <diag:descricao>pensamentos acelerados</diag:descricao>
     <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Transtorno_de_Ansiedade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/formigamento_na_mão">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>formigamento na mão</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Infarto"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.com/diagnosis/ontology/febre">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
@@ -76,126 +114,144 @@
     <diag:descricao>suor excessivo</diag:descricao>
     <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Infarto"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/dor_pulsante_na_cabeça">
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/pés_inchados">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>dor pulsante na cabeça</diag:descricao>
-    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Enxaqueca"/>
+    <diag:descricao>pés inchados</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Insuficiência_Cardíaca"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/dor_no_tórax_ao_respirar">
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/desce_pro_peito">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>dor no tórax ao respirar</diag:descricao>
-    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Pneumonia"/>
+    <diag:descricao>desce pro peito</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Infarto"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/pernas_incham">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>pernas incham</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Insuficiência_Cardíaca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/inchaço_abdominal">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>inchaço abdominal</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Gastrite"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/fezes_escuras">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>fezes escuras</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Gastrite"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.com/diagnosis/ontology/Enxaqueca">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Diagnostico"/>
     <diag:descricao>Enxaqueca</diag:descricao>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/pressão_no_tórax">
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/zigue-zagues">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>pressão no tórax</diag:descricao>
+    <diag:descricao>zigue-zagues</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Enxaqueca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/irradiação_pro_braço">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>irradiação pro braço</diag:descricao>
     <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Infarto"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/insônia">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>insônia</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Transtorno_de_Ansiedade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/muito_fraco">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>muito fraco</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Insuficiência_Cardíaca"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.com/diagnosis/ontology/queimação">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
     <diag:descricao>queimação</diag:descricao>
     <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Gastrite"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/estufamento">
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/piorando_ao_se_mexer">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>estufamento</diag:descricao>
-    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Gastrite"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/inquietação">
-    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>inquietação</diag:descricao>
-    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Transtorno_de_Ansiedade"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/dor_de_cabeça_unilateral">
-    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>dor de cabeça unilateral</diag:descricao>
+    <diag:descricao>piorando ao se mexer</diag:descricao>
     <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Enxaqueca"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/queimação_no_estômago">
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/respiração_funda">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>queimação no estômago</diag:descricao>
-    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Gastrite"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/irradiação_para_braço">
-    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>irradiação para braço</diag:descricao>
+    <diag:descricao>respiração funda</diag:descricao>
     <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Infarto"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/desconforto_abdominal">
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/coração_acelerado">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>desconforto abdominal</diag:descricao>
+    <diag:descricao>coração acelerado</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Insuficiência_Cardíaca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/dificuldade_de_engolir">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>dificuldade de engolir</diag:descricao>
     <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Gastrite"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/fadiga_constante">
-    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>fadiga constante</diag:descricao>
-    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Insuficiência_Cardíaca"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/inchaço_nas_pernas">
-    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>inchaço nas pernas</diag:descricao>
-    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Insuficiência_Cardíaca"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/dor_no_estômago">
-    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>dor no estômago</diag:descricao>
-    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Gastrite"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/falta_de_ar">
-    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>falta de ar</diag:descricao>
-    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Infarto"/>
-    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Pneumonia"/>
-    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Insuficiência_Cardíaca"/>
     <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Transtorno_de_Ansiedade"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/inchaço_nos_pés">
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/acorda_à_noite">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>inchaço nos pés</diag:descricao>
+    <diag:descricao>acorda à noite</diag:descricao>
     <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Insuficiência_Cardíaca"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/tosse_com_secreção">
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/abdômen_inchado">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>tosse com secreção</diag:descricao>
-    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Pneumonia"/>
+    <diag:descricao>abdômen inchado</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Insuficiência_Cardíaca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/vômito_com_sangue">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>vômito com sangue</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Gastrite"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/cefaleia_tensional">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>cefaleia tensional</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Transtorno_de_Ansiedade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/dor_que_puxa_nuca">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>dor que puxa nuca</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Enxaqueca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/queimação_no_peito">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>queimação no peito</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Infarto"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.com/diagnosis/ontology/Transtorno_de_Ansiedade">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Diagnostico"/>
     <diag:descricao>Transtorno de Ansiedade</diag:descricao>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/cansaço_extremo">
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/ganho_de_peso">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>cansaço extremo</diag:descricao>
+    <diag:descricao>ganho de peso</diag:descricao>
     <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Insuficiência_Cardíaca"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/dificuldade_para_respirar">
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/ânsia_de_vômito">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>dificuldade para respirar</diag:descricao>
-    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Pneumonia"/>
+    <diag:descricao>ânsia de vômito</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Enxaqueca"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.com/diagnosis/ontology/falta_de_ar_ao_deitar">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
     <diag:descricao>falta de ar ao deitar</diag:descricao>
     <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Insuficiência_Cardíaca"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/ansiedade">
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/irrealidade">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>ansiedade</diag:descricao>
+    <diag:descricao>irrealidade</diag:descricao>
     <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Transtorno_de_Ansiedade"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/cansaço">
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/suor_à_noite">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>cansaço</diag:descricao>
+    <diag:descricao>suor à noite</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Pneumonia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/extremamente_cansado">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>extremamente cansado</diag:descricao>
     <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Insuficiência_Cardíaca"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/nervosismo">
-    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>nervosismo</diag:descricao>
-    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Transtorno_de_Ansiedade"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.com/diagnosis/ontology/temSintoma">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -203,46 +259,51 @@
   <rdf:Description rdf:about="http://example.com/diagnosis/ontology/Relacao">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/palpitações">
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/pânico">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>palpitações</diag:descricao>
+    <diag:descricao>pânico</diag:descricao>
     <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Transtorno_de_Ansiedade"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.com/diagnosis/ontology/Pneumonia">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Diagnostico"/>
     <diag:descricao>Pneumonia</diag:descricao>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/coração_acelerado">
-    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>coração acelerado</diag:descricao>
-    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Transtorno_de_Ansiedade"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://example.com/diagnosis/ontology/Infarto">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Diagnostico"/>
     <diag:descricao>Infarto</diag:descricao>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/dor_no_tórax">
-    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>dor no tórax</diag:descricao>
-    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Infarto"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.com/diagnosis/ontology/visão_embaçada">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
     <diag:descricao>visão embaçada</diag:descricao>
     <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Enxaqueca"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/dor_ao_respirar">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>dor ao respirar</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Pneumonia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/formigamento_nos_dedos">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>formigamento nos dedos</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Transtorno_de_Ansiedade"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://example.com/diagnosis/ontology/confianca">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/alimentação">
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/medo">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>alimentação</diag:descricao>
-    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Gastrite"/>
+    <diag:descricao>medo</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Transtorno_de_Ansiedade"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/calafrios">
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/suor_frio">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>calafrios</diag:descricao>
-    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Pneumonia"/>
+    <diag:descricao>suor frio</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Infarto"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/preocupação_constante">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>preocupação constante</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Transtorno_de_Ansiedade"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.com/diagnosis/ontology/sugere">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -250,26 +311,87 @@
   <rdf:Description rdf:about="http://example.com/diagnosis/ontology/Sintoma">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/catarro_cinzento">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>catarro cinzento</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Pneumonia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/sem_ar">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>sem ar</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Pneumonia"/>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Insuficiência_Cardíaca"/>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Transtorno_de_Ansiedade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/arroto_frequente">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>arroto frequente</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Gastrite"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://example.com/diagnosis/ontology/aperto_no_peito">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
     <diag:descricao>aperto no peito</diag:descricao>
     <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Infarto"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/suor_nas_mãos">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>suor nas mãos</diag:descricao>
     <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Transtorno_de_Ansiedade"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/tosse_constante">
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/queimação_na_garganta">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>tosse constante</diag:descricao>
+    <diag:descricao>queimação na garganta</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Gastrite"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/dor_na_boca_do_estômago">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>dor na boca do estômago</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Gastrite"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/respiração_acelerada">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>respiração acelerada</diag:descricao>
     <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Pneumonia"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/intolerância_a_barulho">
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/dor_na_mandíbula">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
-    <diag:descricao>intolerância a barulho</diag:descricao>
-    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Enxaqueca"/>
+    <diag:descricao>dor na mandíbula</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Infarto"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/refluxo">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>refluxo</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Gastrite"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/sensibilidade_a_gordura">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>sensibilidade a gordura</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Gastrite"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/plenitude">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>plenitude</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Gastrite"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.com/diagnosis/ontology/sensibilidade_à_luz">
     <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
     <diag:descricao>sensibilidade à luz</diag:descricao>
     <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Enxaqueca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/adormecimento_no_braço">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>adormecimento no braço</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Infarto"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/tensão_muscular">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>tensão muscular</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Transtorno_de_Ansiedade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/diagnosis/ontology/frio_na_espinha">
+    <rdf:type rdf:resource="http://example.com/diagnosis/ontology/Sintoma"/>
+    <diag:descricao>frio na espinha</diag:descricao>
+    <diag:sugere rdf:resource="http://example.com/diagnosis/ontology/Pneumonia"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.com/diagnosis/ontology/Diagnostico">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
