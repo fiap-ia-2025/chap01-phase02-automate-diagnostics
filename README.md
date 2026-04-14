@@ -110,3 +110,140 @@ Na próxima etapa, planeja-se aumentar a base de dados com palavras-chaves mais 
 1. Verificar de que o arquivo `triagem_risco.csv` está na pasta /document;
 2. Abrir o arquivo `Classificador_Risco.ipynb` e executar com o Jupyter Notebook;
 3. A execução da etapa 2 irá resultar no modelo preditivo com os gráficos gerados automaticamente ao final.
+
+---
+
+# 📈 CardioIA – Diagnóstico Visual com Rede Neural (MLP)
+
+Este projeto faz parte da iniciativa **CardioIA**, voltada à aplicação de Inteligência Artificial no apoio ao diagnóstico médico.
+
+Nesta etapa complementar, o foco está no diagnóstico visual, por meio da aplicação de uma Rede Neural Artificial do tipo **Perceptron Multicamadas (MLP)** para classificação de imagens de eletrocardiogramas (ECG). O modelo foi treinado com uma base de dados pública contendo imagens médicas, com o objetivo de identificar se o sinal cardíaco representa um ritmo **normal** ou alguma **anomalia**.
+
+A proposta amplia os conceitos previamente explorados no CardioIA, incorporando técnicas de visão computacional e reforçando o papel da Inteligência Artificial na triagem automatizada de pacientes e no apoio à tomada de decisão clínica.
+
+---
+
+### 📌 Contexto
+
+As doenças cardiovasculares estão entre as principais causas de morte no mundo, tornando essencial o diagnóstico precoce e preciso.
+
+O eletrocardiograma (ECG) é um exame amplamente utilizado para analisar a atividade elétrica do coração. No entanto, sua interpretação pode ser complexa e demandar tempo e conhecimento especializado.
+
+Dessa forma, o uso de Inteligência Artificial surge como uma ferramenta poderosa para:
+
+- Automatizar a análise de exames
+- Auxiliar profissionais da saúde
+- Reduzir erros de diagnóstico
+- Aumentar a eficiência na triagem de pacientes
+
+---
+
+### 🎯 Objetivo
+
+- Classificar imagens de ECG em **normal** ou **anormal**
+- Aplicar técnicas de pré-processamento em imagens médicas
+- Implementar uma rede neural MLP utilizando **Keras**
+- Treinar e avaliar o modelo
+- Analisar o desempenho obtido
+
+---
+
+### 🧠 Metodologia
+
+O projeto foi desenvolvido seguindo as seguintes etapas:
+
+#### 1. Pré-processamento das imagens
+
+As imagens passaram por um pipeline de preparação para serem utilizadas pela MLP:
+
+- Conversão para escala de cinza (grayscale)
+- Redimensionamento para **64x64 pixels**
+- Normalização dos valores de pixel (0 a 1)
+- Transformação em vetor unidimensional (flatten)
+
+---
+
+#### 2. Modelagem com MLP
+
+A arquitetura da rede neural inclui:
+
+- Camadas densas (Dense) com ativação **ReLU**
+- Camadas de **Dropout** para reduzir overfitting
+- Camada de saída com ativação **sigmoid** (classificação binária)
+
+---
+
+#### 3. Treinamento
+
+- Otimizador: **Adam**
+- Função de perda: **Binary Crossentropy**
+- Uso de **Early Stopping** para evitar overfitting
+- Separação de dados em treino, validação e teste
+
+---
+
+#### 4. Avaliação
+
+O modelo foi avaliado utilizando:
+
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Matriz de confusão
+- Gráficos de desempenho (treino vs validação)
+
+---
+
+### 📊 Dataset
+
+O dataset utilizado é composto por imagens de ECG derivadas de bases reconhecidas, como MIT-BIH.
+
+As classes originais foram convertidas para classificação binária:
+
+- **Normal (N)** → 0  
+- **Anormal (F, M, S, Q, V)** → 1  
+
+📌 Dataset:  
+https://www.kaggle.com/datasets/erhmrai/ecg-image-data
+
+---
+
+### 🖼️ Exemplos de Imagens
+
+#### 🔹 ECG Normal
+![ECG Normal](assets/img/ecg_normal.png)
+
+#### 🔹 ECG Anormal
+![ECG Anormal](assets/img/ecg_anormal.png)
+
+---
+
+### 📋 Resultados
+
+O modelo apresentou:
+
+- **Acurácia no teste: ~81%**
+
+Esse resultado demonstra que a MLP foi capaz de aprender padrões relevantes, mesmo não sendo a arquitetura mais adequada para imagens.
+
+---
+
+### ⚠️ Limitações
+
+- A MLP não considera relações espaciais entre pixels
+- Possível desbalanceamento entre classes
+- Validação com acurácia elevada pode não refletir totalmente a generalização
+
+---
+
+### 🛠️ Tecnologias Utilizadas
+
+- Python  
+- TensorFlow / Keras  
+- NumPy  
+- OpenCV  
+- Matplotlib  
+- Scikit-learn  
+
+---
