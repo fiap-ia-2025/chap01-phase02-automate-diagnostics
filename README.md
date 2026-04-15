@@ -28,16 +28,149 @@
 
 # ❤️ CardioIA – Fase 2
 
-## 🎯 Visão geral
+## 🎥 Vídeo de Demonstração
 
+[![CardioIA – Fase 2](https://img.youtube.com/vi/vxSZyMZO1Zo/hqdefault.jpg)](https://youtu.be/vxSZyMZO1Zo)
 
+## 🎯 Visão Geral
 
-## 📋 Objetivos e entregas
+**CardioIA - Fase 2** é uma solução completa de suporte ao diagnóstico cardiovascular utilizando Inteligência Artificial, dividida em três etapas progressivas:
 
+### 📊 **Parte 1: Extração de Sintomas (NLP)**
+Processamento de linguagem natural com fuzzy matching para extrair sintomas de relatos textuais em português coloquial. Mapeamento automático de 30 casos clínicos para 6 diagnósticos diferentes (Infarto, Insuficiência Cardíaca, Enxaqueca, Pneumonia, Ansiedade, Gastrite) com **100% de confiança e 0% de casos inconclusivos**.
+
+### 📄 **Parte 2: Triagem de Risco (Decision Tree)**
+Classificador preditivo que automatiza a triagem de pacientes em **Alto Risco** e **Baixo Risco** usando algoritmos de Machine Learning (Árvore de Decisão com TF-IDF). Acurácia de **70%** com validação cruzada, garantindo agilidade no atendimento de casos críticos.
+
+### 🏥 **Ir Além 1:  CardioIA Portal**
+
+Portal de diagnóstico cardiovascular desenvolvido em React + Vite para simulação de gerenciamento de pacientes e consultas cardiológicas.
+
+### 📈 **Ir Além 2: Diagnóstico Visual com MLP**
+Rede Neural Artificial (Perceptron Multicamadas) para análise de imagens de eletrocardiogramas (ECG), classificando-os como **Normal** ou **Anormal**. Alcança **~81% de acurácia** incorporando técnicas de visão computacional.
+
+**Impacto:** Triagem automatizada, redução de tempo diagnóstico, e suporte à decisão clínica em múltiplos níveis (textual, categorização de risco e análise de exames).
 
 ---
 
-## 📊 Parte 1
+## 📁 Estrutura do Projeto
+
+```
+chap01-phase02-automate-diagnostics/
+├── src/
+│   ├── NLP_diagnostics.ipynb              # Extração de sintomas com fuzzy matching
+│   ├── Classificador_Risco.ipynb          # Triagem de risco (Decision Tree + TF-IDF)
+│   ├── Ontologia_Grafo_Dependencias.ipynb # Grafo RDF sintomas-diagnósticos
+│   └── MLP.ipynb                          # Classificação de imagens ECG (Ir Além 2)
+├── document/
+│   ├── symptoms.txt                       # 30 relatos textuais de pacientes
+│   ├── diagnostics.csv                    # 42 mapeamentos sintoma → diagnóstico
+│   ├── triagem_risco.csv                  # 30 casos classificados (Alto/Baixo risco)
+│   ├── resultados_diagnostico.csv         # Diagnosis com confiança (Parte 1)
+│   └── diagnosticos_ontologia.owl         # Ontologia em formato OWL/RDF
+├── scripts/
+│   ├── config.py                          # Configuração centralizada (caminhos)
+│   └── atualizar_triagem.py               # Script para regenerar triagem_risco.csv
+├── assets/
+│   └── img/                               # Imagens do projeto (gráficos, diagramas)
+├── .gitignore
+├── LICENSE
+└── README.md                              # Este arquivo
+```
+
+### 📋 Descrição dos Componentes
+
+| Pasta | Arquivo | Descrição |
+|-------|---------|-----------|
+| **src/** | NLP_diagnostics.ipynb | Pipeline NLP: extração fuzzy, normalização, diagnóstico |
+| | Classificador_Risco.ipynb | Triagem automática em Alto/Baixo risco |
+| | Ontologia_Grafo_Dependencias.ipynb | Análise topológica dos sintomas-diagnósticos |
+| | MLP.ipynb | Rede neural para classificação de ECG |
+| **document/** | symptoms.txt | Base de dados de relatos de pacientes |
+| | diagnostics.csv | Dicionário de correlações médicas |
+| | triagem_risco.csv | Dataset treinamento/teste da Parte 2 |
+| | diagnosticos_ontologia.owl | Conhecimento estruturado em grafo |
+| **scripts/** | config.py | Variáveis centralizadas (DOCUMENTS_DIR, etc) |
+| | atualizar_triagem.py | Automação de processamento |
+
+---
+
+## 📊 Parte 1 - NLP Frases de sintomas + extração de informações
+
+### 🎯 Objetivo
+
+Extrair sintomas de relatos textuais em linguagem natural e mapear correlações entre sintomas e diagnósticos médicos por meio de processamento de linguagem natural (NLP) e construção de uma ontologia em grafo de dependências.
+
+### 📊 Estrutura dos Dados
+
+**Entrada:**
+- `symptoms.txt`: 30 relatos textuais de pacientes em português coloquial (ex: "Sinto o coração acelerando", "Dor forte nas costas")
+
+**Saída:**
+- `resultados_diagnosticos.csv`: Diagnósticos extraídos com confiança (6 categorias: Infarto, Insuficiência Cardíaca, Enxaqueca, Pneumonia, Ansiedade, Gastrite)
+- Grafo de dependências relacionando sintomas com diagnósticos (nodes, edges, pesos de influência)
+
+### 🛠️ Tecnologias e Metodologia
+
+#### **🔤 Extração de Sintomas com Fuzzy Matching**
+
+- **Algoritmo N-Grama**: Divide cada relato em frases de 1-5 palavras
+- **Diflib.SequenceMatcher**: Calcula similaridade fuzzy entre n-gramas e base de sintomas conhecidos
+- **Threshold 0.65**: Garante correspondências significativas, filtrando ruído
+- **Stemming/Lemmatização**: NLTK (SnowballStemmer) e SPACY (pt_core_news_sm) para normalização portuguesa
+- **Resultado**: 100% dos casos processados com 0% de inconclusivos (vs 53.3% antes)
+
+#### **🧠 Processamento Linguístico**
+
+- **Tokenização**: Segmentação em palavras e sentenças
+- **Remoção de Stopwords**: Eliminação de conectores e palavras comuns
+- **Normalização**: Conversão para minúsculas, remoção de acentos e caracteres especiais
+
+#### **🕸️ Ontologia e Grafo de Dependências**
+
+- **RDFLib**: Construção de grafo RDF (Resource Description Framework)
+- **NetworkX**: Análise topológica do grafo
+- **Mapeamento**: Relação sintoma → diagnóstico com pesos de influência
+- **Métricas**: Grau de entrada/saída, centralidade, ancestrais/descendentes de cada nó
+
+### ✅ Solução
+
+**Pipeline NLP Implementado:**
+
+1. **Extração Robusta**: Algoritmo fuzzy matching resolve linguagem coloquial que regex falha
+2. **100% Conclusivas**: Todos os 30 casos processados com sucesso
+3. **Ontologia Estruturada**: Grafo RDF documenta conhecimento médico em format W3C
+4. **Diagnósticos Confiáveis**: Base de 42 pares sintoma-diagnóstico mapeados manualmente
+5. **Validação Automática**: Cada caso diagnosticado com score de confiança de 100%
+
+**Distribuição de Diagnósticos:**
+- Infarto: 26.7% | Insuficiência Cardíaca: 20% | Enxaqueca: 16.7% | Pneumonia: 13.3% | Ansiedade: 13.3% | Gastrite: 10%
+
+### 🎯 Problema que Resolve
+
+**Antes (Regex):**
+- Extração falha em linguagem coloquial ("mal estar" ≠ "mal-estar")
+- 53.3% de casos inconclusivos (16/30)
+- Perda de diagnósticos válidos
+
+**Depois (Fuzzy Matching):**
+- ✅ 100% dos casos conclusivos (30/30)
+- ✅ 100% de confiança em todas as diagnoses
+- ✅ Captura variações naturais da fala portuguesa
+- ✅ Grafo permite análise de padrões médicos
+
+### ✅ Conclusão
+
+O pipeline NLP alcançou **100% de extração bem-sucedida** contra 46.7% anterior, demonstrando a efetividade do fuzzy matching para linguagem natural. A ontologia em grafo permite transparência total na relação entre sintomas e diagnósticos, criando base sólida para triagem automatizada. A solução é escalável para novos sintomas/diagnósticos sem retreinamento.
+
+### **⚙️ Como executar a Parte 1**
+
+1. Verificar arquivo `symptoms.txt` em `/document`;
+2. Abrir `NLP_diagnostics.ipynb` e executar todas as células;
+3. Abrir `Ontologia_Grafo_Dependencias.ipynb` para análise do grafo;
+4. Saída: `resultados_diagnosticos.csv` com diagnósticos e confiança.
+
+---
 
 ## 📄 Parte 2 - Classificador básico de texto
 
@@ -113,7 +246,11 @@ Na próxima etapa, planeja-se aumentar a base de dados com palavras-chaves mais 
 
 ---
 
-# 📈 CardioIA – Diagnóstico Visual com Rede Neural (MLP)
+# IR ALÉM 1: 🏥 CardioIA Portal
+
+[Link para o repositório do Portal](https://github.com/fiap-ia-2025/grupo84-cardioia-portal)
+
+# IR ALÉM 2: 📈 CardioIA – Diagnóstico Visual com Rede Neural (MLP)
 
 Este projeto faz parte da iniciativa **CardioIA**, voltada à aplicação de Inteligência Artificial no apoio ao diagnóstico médico.
 
