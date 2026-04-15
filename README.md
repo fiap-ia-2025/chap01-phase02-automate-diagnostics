@@ -30,7 +30,7 @@
 
 ## 🎥 Vídeo de Demonstração
 
-[![CardioIA – Fase 2](https://img.youtube.com/vi/vxSZyMZO1Zo/hqdefault.jpg)](https://youtu.be/vxSZyMZO1Zo)
+https://www.youtube.com/watch?v=lNk43xk_dik
 
 ## 🎯 Visão Geral
 
